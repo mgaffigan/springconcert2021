@@ -1,0 +1,30 @@
+.section {
+    padding: 3em;
+}
+
+/*.students {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.student {
+    margin: 0.25em 1em 0.25em 0;
+}*/
+
+.songs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.song { 
+    margin: 0.5em 1em 0.5em 0;
+    min-width: 2in;
+}
+
+.song .author, .song .notes {
+    font-size: 75%;
+}
+
+.footnote {
+    font-size: 75%;
+}
