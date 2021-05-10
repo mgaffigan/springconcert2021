@@ -101,7 +101,7 @@
                         <div class="notes">Soloist Sofie Teall</div>
                     </div>
                 </div>
-                <h6>Students</h6>
+                <h6 class="studentsHeader">Students</h6>
                 <div class="students" id="students7th">
                     <div class="student">Jessica Ames</div>
                     <div class="student">Adelynn Avey</div>
@@ -178,7 +178,7 @@
                         <div class="author">Arranged by Roger Emerson</div>
                     </div>
                 </div>
-                <h6>Students</h6>
+                <h6 class="studentsHeader">Students</h6>
                 <div class="students" id="bassStudents">
                     <div class="student">Andrew Adams</div>
                     <div class="student">Ayden Bozak</div>
@@ -224,7 +224,7 @@
                         <div class="notes">Soloists Jane Maddex, Larkin Newton, and Amber Lohman</div>
                     </div>
                 </div>
-                <h6>Students</h6>
+                <h6 class="studentsHeader">Students</h6>
                 <div class="students" id="students8th">
                     <div class="student">Emma Adcock</div>
                     <div class="student">Hannah Armstrong</div>
@@ -288,7 +288,7 @@
                         <div class="notes">Soloists Karleigh Pawlyszyn, Addie Mitchell, and Ava Cunningham</div>
                     </div>
                 </div>
-                <h6>Students</h6>
+                <h6 class="studentsHeader">Students</h6>
                 <div class="students" id="studentstrojan">
                     <div class="student">Delilah Bachman</div>
                     <div class="student">Madison Boatright</div>
@@ -335,7 +335,7 @@
                         <div class="author">Arranged by Roger Emerson</div>
                     </div>
                 </div>
-                <h6>Students</h6>
+                <h6 class="studentsHeader">Students</h6>
                 <div class="students" id="students8thcombined">
                     <div class="student">Andrew Adams</div>
                     <div class="student">Emma Adcock</div>
@@ -410,7 +410,7 @@
                         <div class="notes">Soloists Alice Farcher, Mackenzie Dees</div>
                     </div>
                 </div>
-                <h6>Students</h6>
+                <h6 class="studentsHeader">Students</h6>
                 <div class="students" id="studentscombined">
                     <div class="student">Andrew Adams</div>
                     <div class="student">Emma Adcock</div>
@@ -550,12 +550,13 @@
     <script>
         new fullpage('#fullpage', {
             anchors: ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7'],
-            navigationTooltips: ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7'],
+            navigationTooltips: ['Program', '7th Grade', 'Bass Choir', '8th Treble', 'Trojan Gold', '8th Grade', 'Combined Choirs'],
             css3: true,
             scrollingSpeed: 1000,
             navigation: true,
             slidesNavigation: true,
             responsiveHeight: 330,
+            sectionsColor: ['#E0FEFE', '#C7CEEA', '#FFDAC1', '#FF9AA2', '#FFFFD8', '#B5EAD7', '#D9BBE6' ]
         });
 
         const slickOpts = {

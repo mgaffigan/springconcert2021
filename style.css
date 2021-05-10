@@ -2,14 +2,17 @@
     padding: 3em;
 }
 
-/*.students {
-    display: flex;
-    flex-wrap: wrap;
+.studentsHeader {
+    margin-top: 1em;
 }
 
-.student {
-    margin: 0.25em 1em 0.25em 0;
-}*/
+.students {
+    padding: 0.5em 1em;
+    
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: solid 1px rgba(255, 255, 255, 0.5);
+}
 
 .songs {
     display: flex;
@@ -18,7 +21,17 @@
 
 .song { 
     margin: 0.5em 1em 0.5em 0;
+    padding: 0.5em 1em;
     min-width: 2in;
+    flex-grow: 1;
+
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+.song h6 {
+    margin-bottom: 0;
 }
 
 .song .author, .song .notes {
